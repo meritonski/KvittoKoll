@@ -13,13 +13,17 @@ Kontakt: **[koffeinappen@gmail.com](mailto:koffeinappen@gmail.com)**
 ### 1.1 Data du själv lägger in
 När du använder KvittoKoll kan du lägga in information som:
 - Kvittoinformation (t.ex. butik, datum, belopp, kategori)
-- Bilder eller dokument kopplade till kvitton (om du väljer att spara sådant)
-- Garantitid och relaterade notiser/påminnelser
+- Bilder/dokument kopplade till kvitton (om du väljer att spara sådant)
+- Garantitid och relaterade påminnelser
 
-Denna information är i första hand till för att appen ska fungera som tänkt.
+### 1.2 Enhets- och användningsdata (för annonser)
+Gratisversionen kan visa annonser via **Google AdMob**. För att visa och mäta annonser kan AdMob behandla viss information, t.ex.:
+- Enhetsidentifierare (t.ex. reklam-ID)
+- IP-adress (kan användas för ungefärlig plats)
+- Appinteraktioner och annonsinteraktioner (visningar/klick)
+- Diagnostik/prestandadata relaterad till annonser
 
-### 1.2 Enhetsdata (teknisk data)
-För att kunna felsöka kan viss teknisk information förekomma (t.ex. appversion, enhetsmodell) om du själv skickar detta till oss via support.
+Vilken data som behandlas kan variera beroende på enhet, iOS-inställningar och annonskonfiguration.
 
 ---
 
@@ -28,48 +32,59 @@ För att kunna felsöka kan viss teknisk information förekomma (t.ex. appversio
 ### 2.1 Lokal lagring
 KvittoKoll kan lagra din kvittodata lokalt på din enhet. Det betyder att informationen normalt stannar på din telefon.
 
-### 2.2 Säkerhetskopiering / moln (om aktiverat)
-Om du använder systemfunktioner som iCloud-säkerhetskopiering kan appdata ingå i din enhets backup enligt Apples inställningar. Vi har ingen åtkomst till ditt Apple-ID eller dina iCloud-data.
+### 2.2 iCloud (backup / synk via Apple)
+Om du har **iCloud** aktiverat för säkerhetskopiering eller appdata kan KvittoKolls data ingå i din iCloud-backup enligt Apples inställningar.  
+Vi har **ingen** åtkomst till ditt Apple-ID eller ditt iCloud-innehåll.
 
-> Om din version av appen har egen molnsynk (utöver Apple-backup), uppdatera gärna denna policy med vilken tjänst som används.
+Du styr iCloud via iOS:
+- Inställningar → Apple-ID → iCloud → (Säkerhetskopia / iCloud Drive / App-specifika val)
 
 ---
 
 ## 3. Notiser (påminnelser)
-Om du aktiverar påminnelser kan appen använda notiser för att informera om kommande garanti-utgång. Notiserna hanteras av iOS. Du kan alltid stänga av notiser i iOS-inställningar.
+Om du aktiverar påminnelser kan appen använda notiser för att informera om kommande garanti-utgång. Notiser hanteras av iOS. Du kan alltid stänga av notiser i iOS-inställningar.
 
 ---
 
 ## 4. Delning av data
 Vi säljer inte din data.
 
-Vi delar normalt inte din kvittodata med tredje part. Undantag kan förekomma om du använder funktioner som involverar externa tjänster (se nedan) eller om du själv kontaktar support och väljer att skicka information till oss.
+- Din kvittodata delas normalt inte med tredje part.
+- Annonsrelaterad data kan behandlas av **Google/AdMob** för att leverera och mäta annonser (se avsnitt 5).
 
 ---
 
-## 5. Tredjepartstjänster (vanliga exempel)
+## 5. Tredjepartstjänster
 
-Beroende på hur appen är byggd kan följande förekomma:
+### 5.1 Google AdMob (annonser)
+KvittoKoll använder **Google AdMob** för annonser i gratisversionen. AdMob kan samla in och behandla data för:
+- Annonsleverans
+- Frekvensbegränsning
+- Mätning/rapportering (t.ex. visningar/klick)
+- Fel- och prestandadiagnostik kopplat till annonser
 
-### 5.1 Annonser
-Gratisversionen kan visa annonser. Annonsteknik kan innebära att tredjepartsleverantörer behandlar enhetsidentifierare eller ungefärlig information för att visa och mäta annonser.
+Mer information finns i Googles integritetspolicy:
+https://policies.google.com/privacy
 
-### 5.2 Analys / kraschrapporter
-Appen kan använda verktyg för att förstå appens prestanda (t.ex. kraschrapporter) och förbättra stabilitet.
+> Obs: På iOS kan annonsanpassning påverkas av dina systeminställningar (t.ex. spårning/annons-ID).
 
-### 5.3 Köp i app (Pro)
-Om du köper Pro hanteras betalning och kvitto av Apple (App Store). Vi får inte dina fullständiga betalningsuppgifter.
-
-> **Viktigt:** Exakt vilka tredjepartstjänster som används beror på din implementation (t.ex. AdMob, Firebase, etc.). Om du vill kan du lista dem här med länkar till respektive policy.
+### 5.2 Apple iCloud
+Om iCloud används sker lagring/backup via Apple enligt deras villkor och integritetspolicy.
 
 ---
 
-## 6. Dina val och rättigheter (GDPR)
-Beroende på hur data lagras:
-- Om din data är lokal på enheten: du styr den genom att radera innehåll i appen eller avinstallera appen.
-- Om du har skickat information till support via e-post: du kan be oss radera den genom att kontakta oss.
+## 6. Dina val och rättigheter
 
-Du har rätt att begära information om vad som eventuellt finns sparat om dig (t.ex. i supportmejl).
+### 6.1 Radera din kvittodata
+Om din data lagras lokalt på enheten kan du radera den genom att:
+- Ta bort kvitton i appen (om funktionen finns), eller
+- Avinstallera appen (tar bort lokala appdata)
+
+### 6.2 iCloud-data
+Om data finns i iCloud/backup styr du detta via iOS-inställningar (se 2.2). Du kan även radera iCloud-backuper via iOS.
+
+### 6.3 Supportärenden via e-post
+Om du mejlar support kan du be oss radera e-postkonversationen genom att kontakta oss.
 
 ---
 
