@@ -1,7 +1,4 @@
----
-title: Support – KvittoKoll
-layout: default
----
+
 # Support – KvittoKoll
 
 Behöver du hjälp? Kontakta oss här:  
